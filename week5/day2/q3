@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+</head>
+<body>
+    <h2 id="podcast-title">Audio</h2>
+    
+    <audio controls autoplay muted loop preload="metadata">
+        <source src="music.mp3">
+        <source src="music.mp3">
+        Your browser does not support the audio tag.
+        <a href="music.mp3">Download the audio</a>
+    </audio>
+
+    <details>
+        <summary>Transcript</summary>
+        <p><strong>Host:</strong> Welcome to the podcast.</p>
+        <p><strong>Guest:</strong> Thanks for having me!</p>
+    </details>
+</body>
+</html>
