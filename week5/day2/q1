@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video controls muted loop poster="poster.jpg" width="640" height="360">
+        <source src="https://youtu.be/PNAkSTpUbb8" type="video/mp4">
+        <source src="video.webm" type="video/webm">
+        <source src="video.ogv" type="video/ogg">
+        
+        <track src="subtitles-en.vtt" kind="subtitles" srclang="en" label="English" default>
+      
+        Your browser does not support the video tag.
+        <a href="video.mp4">Download the video</a>.
+      </video>
+</body>
+</html>
