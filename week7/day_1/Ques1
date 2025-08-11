@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+        @media(max-width: 600px)
+        {
+            body{
+                background-color: lightblue;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Media Query</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias officia eos quo dignissimos saepe itaque at aperiam provident quibusdam nihil libero, tenetur, quidem fuga corporis iste unde fugiat quam commodi obcaecati cumque sequi non fugit autem. Hic, nulla ad inventore est incidunt rem consequatur recusandae iste perferendis eum quae perspiciatis!</p>
+    </div>
+</body>
+</html>
